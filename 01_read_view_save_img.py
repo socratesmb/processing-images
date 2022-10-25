@@ -1,6 +1,6 @@
 import cv2
 
-imagen = cv2.imread('perro-samurai.jpg') # Leer una imagen
+imagen = cv2.imread('img/perro-samurai.jpg') # Leer una imagen
 
 #cv2.imwrite('perro-samurai-gris.jpg', imagen) # Guardar imagen
 
