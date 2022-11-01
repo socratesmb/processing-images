@@ -9,9 +9,9 @@ d = img.shape # Obtener ancho y alto de imagen
 image = cv2.resize(img, (int(d[1]/2), int(d[0]/2))) # Redimension de imagen
 
 # Creacion de umbralizacion de imagen
-_,thre1 = cv2.threshold(image, 50, 255, cv2.THRESH_BINARY)
-_,thre2 = cv2.threshold(image, 70, 255, cv2.THRESH_BINARY)
-_,thre3 = cv2.threshold(image, 90, 255, cv2.THRESH_BINARY)
+_,thre1 = cv2.threshold(image, 20, 255, cv2.THRESH_BINARY)
+_,thre2 = cv2.threshold(image, 40, 255, cv2.THRESH_BINARY)
+_,thre3 = cv2.threshold(image, 60, 255, cv2.THRESH_BINARY)
 
 #region Otros Filtros
 '''
